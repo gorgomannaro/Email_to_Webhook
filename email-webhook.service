@@ -1,7 +1,6 @@
 [Unit]
 Description=Email to Webhook Converter Service
-After=network.target trading_bridge.service
-Requires=trading_bridge.service
+After=network.target
 
 [Service]
 Type=simple

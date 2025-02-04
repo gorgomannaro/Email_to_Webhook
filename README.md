@@ -53,7 +53,7 @@ nano .env
 ```bash
 ADMIN_CHECK='<authentication.key>'
 EMAIL_PORT=993
-EMAIL_SERVER='<email.provider.address>'
+EMAIL_SERVER='<email.provider.name>'
 EMAIL_ACCOUNT='<user.account@email.provider>'
 EMAIL_PASSWORD='<user.password>'
 ```

@@ -1,0 +1,17 @@
+[Unit]
+Description=Email to Webhook Converter Service
+After=network.target
+
+[Service]
+Type=simple
+User=<username>
+EnvironmentFile=/home/<username>/.env
+WorkingDirectory=/home/<username>/venv/crypto/BeBo_bridge/modules/email_to_webhook
+ExecStart=/home/<username>/venv/crypto/bin/python email_to_webhook_converter.py
+StandardOutput=null
+StandardError=journal
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

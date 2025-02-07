@@ -100,7 +100,7 @@ Messages must contain a valid JSON array with at least two objects:
 ]
 ```
 
-See [FORMAT.md](docs/FORMAT.md) for detailed message format specifications.
+See [FORMAT](Documentation/English/email-format-docs-en.md) for detailed message format specifications.
 
 ## Configuration
 
@@ -144,11 +144,7 @@ email-to-webhook/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-For support and questions, please [open an issue](https://github.com/yourusername/email-to-webhook/issues) on GitHub.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 ## Acknowledgments
 
